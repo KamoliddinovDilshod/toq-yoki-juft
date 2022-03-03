@@ -10,15 +10,17 @@ elForm.addEventListener("submit" , function(evt){
     elResult.textContent= 'Juft son';
     elResult.classList.add("span__style");
     coup = numberCoup.push(elInputVal);
+    console.clear();
     console.log(numberCoup);
   }
   else{
     elResult.textContent= 'Toq son';
     elResult.classList.add("span__style");
     odd = numberOdd.push(elInputVal);
+    console.clear();    
     console.log(numberOdd);
   }
-
+  
   elInput.value = null;
 })
 
